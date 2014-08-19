@@ -16,6 +16,9 @@ Minimum viable `composer.json` to currently use:
     "require": {
         "jpstacey/composer-patcher": "*"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-package-install": "Composer\\Patcher\\PatcherPlugin::postPackageInstall"
+    }
 }
 ```
