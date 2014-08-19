@@ -1,0 +1,13 @@
+{
+    "name": "jpstacey/patcher",
+    "description": "Runs patches against projects after install",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "authors": [
+        {
+            "name": "J-P Stacey",
+            "email": "me@jpstacey.info"
+        }
+    ]
+}
