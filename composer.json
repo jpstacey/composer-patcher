@@ -6,7 +6,8 @@
         "class": ["Composer\\Patcher\\PatcherPlugin"]
     },
     "require": {
-        "composer-plugin-api": "*"
+        "composer-plugin-api": "*",
+        "php": ">=5.3.0"
     },
     "authors": [
         {
@@ -14,9 +15,6 @@
             "email": "me@jpstacey.info"
         }
     ],
-    "require": {
-        "php": ">=5.3.0"
-    },
     "autoload": {
         "psr-0": {
             "Composer\\Patcher": "src/"
