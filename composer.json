@@ -9,5 +9,13 @@
             "name": "J-P Stacey",
             "email": "me@jpstacey.info"
         }
-    ]
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Patcher": "src/"
+        }
+    }
 }
