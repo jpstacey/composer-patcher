@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Patcher;
+namespace Composer\Patcher;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;

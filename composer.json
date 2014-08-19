@@ -3,11 +3,10 @@
     "description": "Runs patches against projects after install",
     "type": "composer-plugin",
     "extra": {
-        "class": "Patcher\\PatcherPlugin",
+        "class": ["Composer\\Patcher\\PatcherPlugin"]
     },
     "require": {
-        "composer/installers": "~1.0",
-        "composer-plugin-api": "1.0.0"
+        "composer-plugin-api": "*"
     },
     "authors": [
         {
@@ -20,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Patcher": "src/"
+            "Composer\\Patcher": "src/"
         }
     }
 }
