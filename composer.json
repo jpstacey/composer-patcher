@@ -2,6 +2,9 @@
     "name": "jpstacey/patcher",
     "description": "Runs patches against projects after install",
     "type": "composer-plugin",
+    "extra": {
+        "class": "Patcher\\PatcherPlugin",
+    },
     "require": {
         "composer/installers": "~1.0",
         "composer-plugin-api": "1.0.0"
@@ -17,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "PatcherPlugin": "src/"
+            "Patcher": "src/"
         }
     }
 }
