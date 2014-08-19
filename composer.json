@@ -1,5 +1,5 @@
 {
-    "name": "jpstacey/patcher",
+    "name": "jpstacey/composer-patcher",
     "description": "Runs patches against projects after install",
     "type": "composer-plugin",
     "extra": {
