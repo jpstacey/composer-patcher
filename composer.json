@@ -1,13 +1,12 @@
 {
     "name": "jpstacey/composer-patcher",
     "description": "Runs patches against projects after install",
+
     "type": "composer-plugin",
     "extra": {
         "class": ["Composer\\Patcher\\PatcherPlugin"]
     },
-    "scripts": {
-        "post-package-install": "Composer\\Patcher\\PatcherPlugin::postPackageInstall"
-    },
+
     "require": {
         "composer-plugin-api": "*",
         "php": ">=5.3.0"
