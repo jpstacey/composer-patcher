@@ -19,7 +19,7 @@ Minimum `composer.json`
         }
     ],
     "require": {
-        "jpstacey/composer-patcher": "*@dev"
+        "jpstacey/composer-patcher": "*"
     },
     "scripts": {
         "post-package-install": "Composer\\Patcher\\PatcherPlugin::postPackageInstall"
@@ -61,7 +61,7 @@ Downloads and patches a Drupal module:
         }
     },
     "require": {
-        "jpstacey/composer-patcher": "*@dev",
+        "jpstacey/composer-patcher": "*",
         "drupal/xmlsitemap": "2.0-rc2"
     },
     "scripts": {
