@@ -10,14 +10,14 @@ via Drush make) and so this provides a useful transition technology.
 Minimum `composer.json`
 -----------------------
 
+The package is now registered on Packagist:
+
+https://packagist.org/packages/jpstacey/composer-patcher
+
+so you should only require the following minimum JSON:
+
 ```json
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:jpstacey/composer-patcher.git"
-        }
-    ],
     "require": {
         "jpstacey/composer-patcher": "*"
     },
@@ -38,10 +38,6 @@ Downloads and patches a Drupal module:
 ```json
 {
     "repositories": {
-        "composer-patcher": {
-            "type": "vcs",
-            "url": "git@github.com:jpstacey/composer-patcher.git"
-        },
         "xmlsitemap": {
             "type": "package",
             "package": {
