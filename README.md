@@ -1,7 +1,7 @@
 composer-patcher
 ================
 
-The project jpstacey/composer-patcher is now deprecated in favour of [https://github.com/netresearch/composer-patches-plugin](netresearch/composer-patches-plugin).
+The project jpstacey/composer-patcher is now deprecated in favour of [netresearch/composer-patches-plugin](https://github.com/netresearch/composer-patches-plugin).
 
 Please update your composer.json files accordingly.
 
