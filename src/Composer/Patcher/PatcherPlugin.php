@@ -41,6 +41,10 @@ class PatcherPlugin implements PluginInterface
      */
     public static function postPackageInstall(Event $event)
     {
+        // Disable as composer's API has changed too much for this to still work.
+        self::writeAndCloseReport("jpstacey/composer-patcher is now deprecated in favour of netresearch/composer-patches-plugin")
+        return;
+        
         // Store some objects from the event on this class.
         self::$io = $event->getIO();
 
