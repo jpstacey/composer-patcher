@@ -1,6 +1,13 @@
 composer-patcher
 ================
 
+The project jpstacey/composer-patcher is now deprecated in favour of [https://github.com/netresearch/composer-patches-plugin](netresearch/composer-patches-plugin).
+
+Please update your composer.json files accordingly.
+
+Old documentation, for reference
+--------------------------------
+
 Plugin to patch composer downloads post-hoc.
 
 Arguably you wouldn't want to do this, if you could avoid it. But it's the
